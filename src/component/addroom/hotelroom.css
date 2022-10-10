@@ -1,0 +1,52 @@
+.hotel-room{
+    width:50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    overflow: hidden;
+    border-radius:10px;
+    background-color: #fff;
+}
+
+.create-img{
+    width:100%;
+    height:30vh;
+    object-fit:cover;
+}
+
+.hotel-room input{
+    width: 500px;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid rgb(202, 202, 202);
+        background-color: #fff;
+}
+
+
+
+.select-availability{
+    width: 520px;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid rgb(202, 202, 202);
+        background-color: #fff;
+}
+
+.create-btn{
+    width:93%;
+    padding:10px 10px;
+    margin-bottom: 20px;
+    border-radius:4px;
+    border:none;
+    cursor:pointer;
+    color:white;
+    background-color: rgb(18, 90, 158);;
+}
+
+.upload-photo{
+    margin-top: -15px;
+}

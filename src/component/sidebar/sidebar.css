@@ -1,0 +1,115 @@
+.sidebar{
+    width:25%;
+    position:sticky;
+    top:0;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+    height:100vh;
+    justify-content: space-around;
+box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.55);
+}
+
+.link{
+    text-decoration: none;
+   margin-bottom: 0;
+}
+
+.sidebar-title{
+        color: gray;
+    font-size: 20px;
+    font-weight:500;
+}
+
+.sidebar-top{
+    padding-top: 15px;
+    margin-top: -20px;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #eee;
+    overflow: hidden;
+    box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.71);
+        -webkit-box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.71);
+        -moz-box-shadow: 3px 4px 5px -1px rgba(0, 0, 0, 0.71);
+}
+
+.logo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.sidebar-top h1{
+    color:#27aeef;
+}
+
+.sidebar-top p{
+    color: gray;
+}
+
+.sidebar-top p:last-child {
+    color:#ff80ff;
+    font-weight:bold;
+}
+
+.sidebar-bottom{
+    margin-top:20px;
+    display: flex;
+    flex-direction:column;
+}
+
+
+.link-holder{
+    margin-top:20px;
+    width:95%;
+    padding:10px 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #27aeef;
+    display: flex;
+    align-items: center;
+    border-radius:7px;
+    box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 2px 2px 13px -1px rgba(0, 0, 0, 0.6);
+        cursor: pointer;
+}
+
+.active{
+    background-color: #27aeef;
+    color:white;
+}
+
+.link-holder:nth-of-type(1){
+margin-top: 3px;
+}
+
+.link{
+   margin-left: 10px;
+  
+}
+
+.fa-gear {
+    cursor: pointer;
+    color: #333;
+}
+
+.fa-gear:hover {
+    color: rgb(95, 95, 95);
+}
+
+.expense-link{
+    text-decoration: none;
+}
+
+.expe{
+    color:white;
+    background-color: #27aeef;
+}

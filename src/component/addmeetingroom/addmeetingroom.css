@@ -1,0 +1,12 @@
+.meetingTextarea{
+    width:89%;
+    max-width:89%;
+    min-width:89%;
+    height:20vh;
+    max-height:20vh;
+    min-height:20vh;
+    padding:10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(202, 202, 202);
+}
